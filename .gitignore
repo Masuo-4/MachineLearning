@@ -1,0 +1,45 @@
+# キャッシュや一時ファイル
+*.log
+*.swp
+*.db
+*.sqlite
+
+# バイナリや実行可能ファイル
+*.exe
+*.dll
+*.so
+*.dylib
+
+# パッケージや依存関係
+node_modules/
+venv/
+.env
+
+# ビルドやコンパイルされたファイル
+/build/
+/dist/
+
+# 設定ファイル
+.envrc
+*.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OSやエディタによって生成されるファイル
+.DS_Store
+Thumbs.db
+
+# 依存関係管理のファイル
+npm-debug.log
+yarn-error.log
+pip-log.txt
+
+# IDEやエディタの設定ファイル
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ローカルの設定ファイル
+.local/
